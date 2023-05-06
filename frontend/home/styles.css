@@ -1,0 +1,132 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 30px;
+  width: calc(100% - 40px);
+  box-sizing: border-box;
+}
+
+.header-container {
+  margin: 20px;
+}
+
+.logo-container {
+  margin-right: 20px;
+}
+
+.logo {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  font-size: 36px;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  padding: 15px;
+  border-radius: 4px;
+  background-color: transparent;
+  transition: background-color 0.2s;
+}
+
+.menu a:hover {
+  color: #777;
+  background-color: #e0e0e0;
+}
+
+
+#active {
+  cursor: pointer;
+  background-color: #dcd2d2;
+}
+/* ...existing styles... */
+
+.hero {
+  position: relative;
+  width: calc(100% - 40px);
+  height: 600px;
+  overflow: hidden;
+  margin: 0 auto;
+  background-image: url('https://spockimages.s3.ap-south-1.amazonaws.com/homepage/image1.jpg');
+  background-size: cover;
+}
+
+
+.hero-title {
+  position: relative;
+  font-size: 48px;
+  color: #333;
+  text-align: center;
+  padding-top: 100px;
+  z-index: 1;
+}
+
+.hero-description {
+  position: relative;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  max-width: 800px;
+  margin: 20px auto;
+  z-index: 1;
+}
+/* ...remaining styles... */
+
+/* ...existing styles... */
+
+.winners-showcase {
+  text-align: center;
+  margin-top: 40px;
+  clear: both;  /* Added clear property to separate from previous content */
+}
+
+.winning-quote {
+  font-size: 24px;
+  color: #333;
+  margin: 10px 0 30px;
+}
+
+.winners-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.winner {
+  width: calc(100% / 7 - 10px); /* Adjust width for 7 winners, minus spacing */
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.winner img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.winner h3 {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.winner p {
+  font-size: 16px;
+  color: #777;
+} 

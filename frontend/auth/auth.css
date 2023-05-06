@@ -1,0 +1,56 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 30px;
+  width: calc(100% - 40px);
+  box-sizing: border-box;
+}
+
+.header-container {
+  margin: 20px;
+}
+
+.logo-container {
+  margin-right: 20px;
+}
+
+.logo {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  font-size: 36px;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  padding: 15px;
+  border-radius: 4px;
+  background-color: transparent;
+  transition: background-color 0.2s;
+}
+
+.menu a:hover {
+  color: #777;
+  background-color: #e0e0e0;
+}
+
+#active {
+  cursor: pointer;
+  background-color: #dcd2d2;
+}
