@@ -63,7 +63,8 @@ body {
   height: 600px;
   overflow: hidden;
   margin: 0 auto;
-  background-image: url('https://spockimages.s3.ap-south-1.amazonaws.com/homepage/image1.jpg');
+  /* background-image: url('https://spockimages.s3.ap-south-1.amazonaws.com/homepage/image1.jpg'); */
+  background-image: url("https://spockimages.s3.ap-south-1.amazonaws.com/homepage/hero_img_2.jpg");
   background-size: cover;
 }
 
@@ -71,16 +72,17 @@ body {
 .hero-title {
   position: relative;
   font-size: 48px;
-  color: #333;
+  color: #454343;
   text-align: center;
   padding-top: 100px;
   z-index: 1;
 }
 
 .hero-description {
+  font-family: "Inter";
   position: relative;
   font-size: 24px;
-  color: #333;
+  color: #454343;
   text-align: center;
   max-width: 800px;
   margin: 20px auto;

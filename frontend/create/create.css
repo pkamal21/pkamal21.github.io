@@ -1,6 +1,7 @@
 body {
   font-family: 'Times New Roman', Times, serif;
   margin: 20px;
+  background-image: url("https://spockimages.s3.ap-south-1.amazonaws.com/homepage/bcg_img_create.jpg");
 }
 
 .navbar {
@@ -130,10 +131,10 @@ button:hover {
 
 .player-name {
   position: absolute;
-  bottom: -20px;
+  bottom: -40px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 12px;
+  font-size: 16px;
   color: #333;
 }
 

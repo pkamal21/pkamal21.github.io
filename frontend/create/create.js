@@ -90,10 +90,14 @@ playerInput.addEventListener("keydown", (e) => {
     e.preventDefault();
   } else if (e.key === "Enter") {
     if (selectedIndex >= 0) {
+      console.log("first");
       playerInput.value = suggestionsList.children[selectedIndex].textContent;
       suggestionsList.style.display = "none";
     }
     if (playerInput.value) {
+      console.log("second");
+      playerInput.value = suggestionsList.children[selectedIndex] ? 
+          suggestionsList.children[selectedIndex].textContent : "Please select a stock from list";
       const modal = document.getElementById("playerDetailsModal");
       modal.style.display = "none";
       currentPlayerSpot.querySelector(".player-name").textContent = playerInput.value;
